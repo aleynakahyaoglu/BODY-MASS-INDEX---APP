@@ -16,8 +16,8 @@
 		048159FF27C8F34000FB9789 /* BMITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048159FE27C8F34000FB9789 /* BMITests.swift */; };
 		04815A0927C8F34000FB9789 /* BMIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04815A0827C8F34000FB9789 /* BMIUITests.swift */; };
 		04815A0B27C8F34000FB9789 /* BMIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04815A0A27C8F34000FB9789 /* BMIUITestsLaunchTests.swift */; };
-		04C8C41C27C91F6A000C2466 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8C41B27C91F6A000C2466 /* SwiftUIView.swift */; };
 		04C8C41E27C91FC8000C2466 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8C41D27C91FC8000C2466 /* SecondViewController.swift */; };
+		ADA1BA6028129EC300BA20BF /* SViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA1BA5F28129EC300BA20BF /* SViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		04815A0427C8F34000FB9789 /* BMIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04815A0827C8F34000FB9789 /* BMIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIUITests.swift; sourceTree = "<group>"; };
 		04815A0A27C8F34000FB9789 /* BMIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		04C8C41B27C91F6A000C2466 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		04C8C41D27C91FC8000C2466 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		ADA1BA5F28129EC300BA20BF /* SViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 				048159E727C8F33E00FB9789 /* AppDelegate.swift */,
 				048159E927C8F33E00FB9789 /* SceneDelegate.swift */,
 				048159EB27C8F33E00FB9789 /* ViewController.swift */,
-				04C8C41B27C91F6A000C2466 /* SwiftUIView.swift */,
+				ADA1BA5F28129EC300BA20BF /* SViewController.swift */,
 				048159ED27C8F33E00FB9789 /* Main.storyboard */,
 				04C8C41D27C91FC8000C2466 /* SecondViewController.swift */,
 				048159F027C8F34000FB9789 /* Assets.xcassets */,
@@ -265,8 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				048159EC27C8F33E00FB9789 /* ViewController.swift in Sources */,
+				ADA1BA6028129EC300BA20BF /* SViewController.swift in Sources */,
 				048159E827C8F33E00FB9789 /* AppDelegate.swift in Sources */,
-				04C8C41C27C91F6A000C2466 /* SwiftUIView.swift in Sources */,
 				04C8C41E27C91FC8000C2466 /* SecondViewController.swift in Sources */,
 				048159EA27C8F33E00FB9789 /* SceneDelegate.swift in Sources */,
 			);
