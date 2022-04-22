@@ -9,10 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    var vkiValue = "0.0"
     @IBOutlet weak var boyLabel: UILabel!
     @IBOutlet weak var kiloLabel: UILabel!
     @IBOutlet weak var boySlider: UISlider!
     @IBOutlet weak var kiloSlider: UISlider!
+    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,15 +40,25 @@ class ViewController: UIViewController {
         let boy = boySlider.value
         let kilo = kiloSlider.value
       
-        
-        let vki = kilo / pow (boy, 2)
+        let vki = kilo / (boy * boy)
+        //let vki = kilo / pow (boy, 2)
+        vkiValue = String(format: "%1.f", vki)
         print (vki)
         
-        //let secondVC = SecondViewController()
+        let secondVC = SecondViewController()
         
-        //self.present(secondVC, animated: true, completion: nil)
+        self.performSegue(withIdentifier: "homeToSecond", sender: self)
+        
+       // self.present(secondVC, animated: true, completion: nil)
         
         
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "homeToSecond" {
+            let destinationVC = segue.destination as! SecondViewController
+            destinationVC.vkiValue = vkiValue
+        }
     }
 }
 
